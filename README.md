@@ -1,68 +1,53 @@
-# [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
+# Our First Bootstrap Project
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+### Purpose
+* To gain familiarity with a _bootstrap_ project
+	* [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) is a framework containing built-in CSS and JavaScript tools for designing web components.
 
-## Preview
 
-[![Grayscale Preview](https://startbootstrap.com/assets/img/screenshots/themes/grayscale.png)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
+### Objective
+* To create a website that _mocks_ the user-experience of a very simple online store.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-grayscale/)**
+### Specifications
+* must include custom-styling.
+* must include **at least** four pages.
+	1. an _about_ page
+	2. a _shop_ page
+	2. a _purchase-item_ page
+	3. a _home_ page
 
-## Status
+<hr><hr>
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-grayscale/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-grayscale.svg)](https://www.npmjs.com/package/startbootstrap-grayscale)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-grayscale)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-grayscale?type=dev)
 
-## Download and Installation
+## Git Collaboration Strategy
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/grayscale/)
-* Install via npm: `npm i startbootstrap-grayscale`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-grayscale.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-grayscale)
+#### Part 1 - Assigning an origin-owner
+1. Assign one person to _fork_ the original repository. This will be the _origin-owner_.
+2. The _origin-owner_ should add each of the group-members as a _contributor_ to the project.
+3. Each group-member should then _clone_ the project from their _origin-owner_
 
-## Usage
 
-### Basic Usage
+#### Part 2 - Pushing your first change
+1. As each of you complete a different part of the application, ensure that you are _pushing_ your changes.
+	* _changes_ can be _pushed_ by executing the following commands.
+		1. `git add .`
+		2. `git commit -m 'update message'`
+		3. `git push -u origin master` 
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-### Advanced Usage
+#### Part 3 - Pulling your first change
+* You can keep in sync by executing the following commands
+	1. `git pull origin master`
+	2. `git add .`
+	3. `git commit -m 'merged with master'`
+	4. `git push -u origin master`
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+#### Part 4 - Publish the project online
+1. Navigate to the _settings_ tab of the repository.
+2. Scroll down until you see `GitHub Pages` section
+3. Select `Use the master branch for Github Pages`
+4. Scroll down until you see `Your site is published at ...`
+5. Copy the link associated with your site.
+6. Navigate to your repository.
+7. Edit the description of your respotory by adding a link to the site.
 
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm installed globally in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
